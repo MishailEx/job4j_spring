@@ -7,8 +7,8 @@ public class Main {
         context.reg(Store.class);
         context.reg(StartUI.class);
         StartUI ui = context.get(StartUI.class);
-        ui.add("Petr Arsentev", "го:  ");
-        ui.add("Ivan ivanov","го: ");
+        ui.add("Введите имя: ");
+        ui.add("Введите имя: ");
         ui.print();
     }
 }

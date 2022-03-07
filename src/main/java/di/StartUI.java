@@ -10,9 +10,8 @@ public class StartUI {
         this.consoleInput = consoleInput;
     }
 
-    public void add(String value, String value2) {
-        store.add(value);
-        consoleInput.askStr(value2);
+    public void add(String value2) {
+        store.add(consoleInput.askStr(value2));
     }
 
     public void print() {
